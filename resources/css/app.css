@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply box-border font-medium font-['montserrat']
+}
+.main-btn {
+  @apply py-1 px-3 bg-main text-white rounded-sm  border-2 border-main 
+}
+.second-btn {
+  @apply py-1 px-3 text-main border-2 border-main rounded-sm font-semibold
+}
+.active {
+  @apply bg-main text-white
+}
+.done {
+  @apply bg-green-700 text-white border-green-700
+}
+.done > p {
+  @apply text-green-700
+}
